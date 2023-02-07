@@ -1,0 +1,17 @@
+﻿<Window x:Class="SQLiteNotes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLiteNotes"
+        mc:Ignorable="d"
+        Title="Запомни и точка" Height="500" Width="1000" MinHeight="500" MinWidth="1000" >
+    <Grid>
+        <Grid VerticalAlignment="Top" Height="90" Background="#FFB30B0B">
+            <Image HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="64" Source="/note.png" />
+            <Label Content="Запомни и точка" HorizontalAlignment="Left" Margin="79,0,0,0" VerticalAlignment="Center" FontFamily="Bookman Old Style" FontSize="36"/>
+            <Button x:Name="btGoBack" Content="Назад" HorizontalAlignment="Right" Margin="0,36,10,0" VerticalAlignment="Top" Width="90" FontFamily="Bookman Old Style" Background="#FF0A550F" Click="btGoBack_Click" RenderTransformOrigin="0.389,0.501"/>
+        </Grid>
+        <Frame x:Name="MainFrame"></Frame>
+    </Grid>
+</Window>

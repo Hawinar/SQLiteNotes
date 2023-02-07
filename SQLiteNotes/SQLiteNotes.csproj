@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\note.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="note.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\note.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="note.png" />
+  </ItemGroup>
+
+</Project>
