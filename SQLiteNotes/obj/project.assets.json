@@ -48,7 +48,7 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/7.0.2": {
+      "Microsoft.Data.Sqlite.Core/6.0.13": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.2"
@@ -148,10 +148,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/7.0.2": {
+      "Microsoft.EntityFrameworkCore.Sqlite/6.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "7.0.2",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.13",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
         },
         "compile": {
@@ -161,12 +161,12 @@
           "lib/net6.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.2": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "7.0.2",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.2",
-          "Microsoft.Extensions.DependencyModel": "7.0.0"
+          "Microsoft.Data.Sqlite.Core": "6.0.13",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.13",
+          "Microsoft.Extensions.DependencyModel": "6.0.0"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
@@ -718,10 +718,10 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/7.0.2": {
-      "sha512": "JeATjPNhC0I4g44MRlG9xJ0hbOYgizlV/UAJXzzSGjVPn9ohwr8yO2SrC3jhvTwD3wpL/MrAck/aORhLM/ayoQ==",
+    "Microsoft.Data.Sqlite.Core/6.0.13": {
+      "sha512": "J0tI2FyZcobMWBCWgSVFrp7fvkSPUfQzQUt16A0nMRfvq4IkozkEdx6rNpo0lGcCgUYeMimRw8H3ueqdkxGFXw==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/7.0.2",
+      "path": "microsoft.data.sqlite.core/6.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -730,7 +730,7 @@
         "lib/net6.0/Microsoft.Data.Sqlite.xml",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.7.0.2.nupkg.sha512",
+        "microsoft.data.sqlite.core.6.0.13.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -806,30 +806,30 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/7.0.2": {
-      "sha512": "RDzWFVTbWvLMwanAyBpNYkKucruJZuw0Cg3fy7MoVWl0EMO3HopbE1qL+UeDTK6uQD2U4jeNHV1sBOll9k/nUg==",
+    "Microsoft.EntityFrameworkCore.Sqlite/6.0.13": {
+      "sha512": "lh9ggbl2PwAoAcNH4wA22casTHK0cElJN2m2Ap7X5itOpJVAJDBhHMdXR+Mh1yoQ7Dq9EsUSFlJJFQ2Yskf9/Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/7.0.2",
+      "path": "microsoft.entityframeworkcore.sqlite/6.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.sqlite.7.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.6.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.2": {
-      "sha512": "/BLUhqNvZUr2GDzzPOUFJKS71VEqoEPZLA3DGflZMfoWqB6c1kSQMcsk7yW1YRBJuRnicp7U/fTdUWKfrCNDpg==",
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.13": {
+      "sha512": "Yyj1sNBHgvaTcsrWH90KWNtp0Z44Gav8/gwNwAM22Zz7top/7FF1TG75PBEk8S2I3qSGZjUHA+KOpWDJPfzQcQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/7.0.2",
+      "path": "microsoft.entityframeworkcore.sqlite.core/6.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.7.0.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.core.6.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
@@ -1481,28 +1481,28 @@
     "net6.0-windows7.0": [
       "MaterialDesignColors >= 2.1.1",
       "MaterialDesignThemes >= 4.7.1",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.2",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Преподователь\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\SQLiteNotes\\SQLiteNotes\\SQLiteNotes.csproj",
+      "projectUniqueName": "C:\\Users\\Преподователь\\OneDrive\\Рабочий стол\\SQLiteNotes\\SQLiteNotes\\SQLiteNotes.csproj",
       "projectName": "SQLiteNotes",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\SQLiteNotes\\SQLiteNotes\\SQLiteNotes.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\SQLiteNotes\\SQLiteNotes\\obj\\",
+      "projectPath": "C:\\Users\\Преподователь\\OneDrive\\Рабочий стол\\SQLiteNotes\\SQLiteNotes\\SQLiteNotes.csproj",
+      "packagesPath": "C:\\Users\\Преподователь\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Преподователь\\OneDrive\\Рабочий стол\\SQLiteNotes\\SQLiteNotes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Преподователь\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1539,7 +1539,7 @@
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
-            "version": "[7.0.2, )"
+            "version": "[6.0.13, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -1567,7 +1567,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
