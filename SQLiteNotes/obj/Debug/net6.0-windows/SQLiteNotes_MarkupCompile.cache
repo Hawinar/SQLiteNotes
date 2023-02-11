@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Admin\source\repos\SQLiteNotes\SQLiteNotes\obj\Debug\net6.0-windows\
+C:\Users\Преподователь\OneDrive\Рабочий стол\SQLiteNotes\SQLiteNotes\obj\Debug\net6.0-windows\
 SQLiteNotes
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Admin\source\repos\SQLiteNotes\SQLiteNotes\App.xaml
-2-1894313212
+C:\Users\Преподователь\OneDrive\Рабочий стол\SQLiteNotes\SQLiteNotes\App.xaml
+3234039744
 1-503330806
-7486109862
-215-1822572127
-MainWindow.xaml;Pages\MainMenu.xaml;
+101530603590
+2151863557185
+MainWindow.xaml;MVVM\Views\MenuView.xaml;Pages\MainMenu.xaml;
 
 False
 

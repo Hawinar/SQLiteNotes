@@ -11,6 +11,14 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="Button" x:Key="OldButtonStyle" BasedOn="{StaticResource MaterialDesignFlatSecondaryDarkBgButton}">
+                <Setter Property="HorizontalAlignment" Value="Right"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+                <Setter Property="Width" Value="165"/>
+                <Setter Property="FontFamily" Value="Bookman Old Style"/>
+                <Setter Property="Background" Value="#FF0A550F"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
